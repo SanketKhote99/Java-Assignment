@@ -12,8 +12,10 @@ public class Dateatime {
         String a = abc.format(atime.getTime());
         System.out.println(a);
 
-        SimpleDateFormat ab = new SimpleDateFormat("");
+        SimpleDateFormat ab = new SimpleDateFormat("hh:mm:ss ");
         String ac = ab.format(atime.getTime());
         System.out.println(ac);
-    }
+
+        
+}
 }
