@@ -2,9 +2,6 @@ import java.util.Scanner;
 
 public class MyNumber {
      int x;
-    public MyNumber(){
-     x=0;
-    }
     public MyNumber(int x){
      this.x=x;
     }
